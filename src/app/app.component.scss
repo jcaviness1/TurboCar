@@ -1,0 +1,25 @@
+.custom-navbar{
+  background-color:peachpuff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+
+  .navbar-title{
+    >a{
+      color:black !important;
+      margin-left:10px;
+      font-size:18px;
+      font-weight: bolder;
+    }
+  }
+  .nav-links{
+    display: flex;
+    align-items: center;
+
+    a {
+        color:rgb(35, 47, 41);
+        margin-left: 15px;
+    }
+  }
+}

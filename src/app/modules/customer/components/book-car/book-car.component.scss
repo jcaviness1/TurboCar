@@ -1,0 +1,66 @@
+.car-details-container {
+  background-color: mistyrose;
+  min-height: 91vh;
+  padding-top: 10px;
+  margin-top: 10px;
+}
+
+.car-details {
+  padding: 20px;
+  width: 780px;
+  background-color: powderblue;
+  box-shadow: 1px 1px 15px -7px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.car-image {
+  height: 130px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.car-title {
+  cursor: pointer;
+  color: indigo;
+}
+
+.car-description {
+  margin-bottom: 0;
+}
+
+.booking-section {
+  margin-top: 20px;
+}
+
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.date-picker-group {
+  display: flex;
+  flex-direction: column; /* Change to column */
+  align-items: center;
+  justify-content: space-between; /* Remove this line */
+  width: 100%;
+}
+
+.date-picker-group nz-form-item {
+  margin-bottom: 10px; /* Add margin between date pickers */
+}
+
+.book-button-container {
+  margin-top: 20px;
+  text-align: center; /* Center align the button */
+}

@@ -1,0 +1,35 @@
+// Define styles for the table component
+nz-table {
+  // Styling for the table header
+  thead {
+    tr {
+      th {
+        font-weight: bolder;
+        color: cadetblue;
+      }
+    }
+  }
+
+  // Styling for the table body
+  tbody {
+    tr {
+      td {
+        // Add padding to the table cells
+        padding: 8px;
+      }
+    }
+  }
+}
+
+// Styling for the status colors
+.green-status {
+  color: green;
+}
+
+.blue-status {
+  color: blue;
+}
+
+.black-status {
+  color: black;
+}
